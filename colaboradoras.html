@@ -2,109 +2,231 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FloodMap | Colaboradoras</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
+
+  <!-- MENU -->
   <header class="nav glass">
     <div class="nav-inner">
+
       <div class="brand">
         <div class="brand-mark">F</div>
+
         <div>
           FloodMap
-          <div class="brand-sub">Equipe e lideranças</div>
+          <div class="brand-sub">
+            Equipe e lideranças
+          </div>
         </div>
       </div>
 
       <button class="nav-toggle" id="navToggle">☰</button>
 
+      <!-- IMPORTANTE -->
+      <!-- TODOS OS LINKS VOLTAM PARA index.html -->
+
       <nav class="nav-links" id="navLinks">
-        <a href="inicio.html">Início</a>
-        <a href="inicio.html#sobre">Sobre</a>
-        <a href="inicio.html#missao">Missão</a>
+
+        <a href="index.html">Início</a>
+
+        <a href="index.html#sobre">Sobre</a>
+
+        <a href="index.html#missao">Missão</a>
+
+        <a href="index.html#servicos">Solução</a>
+
         <a href="colaboradoras.html">Colaboradoras</a>
-        <a href="inicio.html#contato">Contato</a>
+
+        <a href="index.html#contato">Contato</a>
+
       </nav>
+
     </div>
   </header>
 
-  <main>
-    <section class="hero reveal" id="topo">
-      <div class="container">
-        <div class="section-title">
-          <div>
-            <h2>Colaboradoras da FloodMap</h2>
-            <p>Aqui você coloca as fotos e os nomes de cada pessoa da equipe. Basta trocar os arquivos dentro da pasta <strong>imagens</strong>.</p>
-          </div>
-        </div>
+  <!-- HERO -->
+  <section class="hero reveal">
 
-        <div class="cards team-page-grid">
-          <div class="card team-page-card">
-            <div class="team-photo large">
-              <!-- FOTO DA FUNDADORA / CEO AQUI -->
-              <img src="giulia.jpg" alt="Fundadora / CEO" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/fundadora.jpg</span>'">
-            </div>
-            <div class="badge">Liderança</div>
-            <h3>Fundadora / CEO</h3>
-            <p>Estratégia, visão do negócio e direção da empresa.</p>
-          </div>
-
-          <div class="card team-page-card">
-            <div class="team-photo large">
-              <!-- FOTO DA DIRETORA DE OPERAÇÕES AQUI -->
-              <img src="nicole.jpg" alt="Diretora de Operações" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/operacoes.jpg</span>'">
-            </div>
-            <div class="badge">Gestão</div>
-            <h3>Diretora de Operações</h3>
-            <p>Organização dos processos, apoio à execução e gestão do projeto.</p>
-          </div>
-
-          <div class="card team-page-card">
-            <div class="team-photo large">
-              <!-- FOTO DA DIRETORA DE TECNOLOGIA AQUI -->
-              <img src="isabella.jpg" alt="Diretora de Tecnologia" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/tecnologia.jpg</span>'">
-            </div>
-            <div class="badge">Tecnologia</div>
-            <h3>Diretora de Tecnologia</h3>
-            <p>Desenvolvimento da plataforma, inovação e suporte técnico.</p>
-          </div>
-
-          <div class="card team-page-card">
-            <div class="team-photo large">
-              <!-- FOTO DA RESPONSÁVEL DE MARKETING AQUI -->
-              <img src="leticia.jpg" alt="Marketing e Relacionamento" onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/marketing.jpg</span>'">
-            </div>
-            <div class="badge">Comunicação</div>
-            <h3>Marketing e Relacionamento</h3>
-            <p>Divulgação, comunicação com clientes e parcerias.</p>
-          </div>
-        </div>
-
-        <div class="card" style="margin-top: 20px;">
-          <h3>Como trocar as fotos</h3>
-          <p>
-            Basta colocar os arquivos com estes nomes na pasta <strong>imagens</strong>:
-            <strong>fundadora.jpg</strong>, <strong>operacoes.jpg</strong>, <strong>tecnologia.jpg</strong> e <strong>marketing.jpg</strong>.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="inicio.html">Voltar para o início</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
     <div class="container">
-      <div class="section-divider"></div>
-      <p>FloodMap — equipe responsável pela solução de prevenção de enchentes.</p>
+
+      <div class="section-title">
+
+        <div>
+
+          <h2>Colaboradoras da FloodMap</h2>
+
+          <p>
+            Conheça as responsáveis pelo desenvolvimento da plataforma de monitoramento inteligente de enchentes.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARDS -->
+      <div class="team-grid">
+
+        <!-- FUNDADORA -->
+        <div class="team-card">
+
+          <div class="team-photo large">
+
+            <!-- FOTO DA FUNDADORA -->
+            <img src="imagens/fundadora.jpg"
+                 alt="Fundadora"
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/fundadora.jpg</span>'">
+
+          </div>
+
+          <div class="badge">Liderança</div>
+
+          <h3>Fundadora / CEO</h3>
+
+          <p>
+            Responsável pela estratégia, visão e crescimento da empresa.
+          </p>
+
+        </div>
+
+        <!-- OPERAÇÕES -->
+        <div class="team-card">
+
+          <div class="team-photo large">
+
+            <!-- FOTO OPERAÇÕES -->
+            <img src="imagens/operacoes.jpg"
+                 alt="Operações"
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/operacoes.jpg</span>'">
+
+          </div>
+
+          <div class="badge">Operações</div>
+
+          <h3>Diretora de Operações</h3>
+
+          <p>
+            Gestão de processos, organização do projeto e suporte operacional.
+          </p>
+
+        </div>
+
+        <!-- TECNOLOGIA -->
+        <div class="team-card">
+
+          <div class="team-photo large">
+
+            <!-- FOTO TECNOLOGIA -->
+            <img src="imagens/tecnologia.jpg"
+                 alt="Tecnologia"
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/tecnologia.jpg</span>'">
+
+          </div>
+
+          <div class="badge">Tecnologia</div>
+
+          <h3>Diretora de Tecnologia</h3>
+
+          <p>
+            Desenvolvimento da plataforma, inovação e infraestrutura técnica.
+          </p>
+
+        </div>
+
+        <!-- MARKETING -->
+        <div class="team-card">
+
+          <div class="team-photo large">
+
+            <!-- FOTO MARKETING -->
+            <img src="imagens/marketing.jpg"
+                 alt="Marketing"
+                 onerror="this.style.display='none'; this.parentElement.innerHTML='<span>Coloque a foto em imagens/marketing.jpg</span>'">
+
+          </div>
+
+          <div class="badge">Comunicação</div>
+
+          <h3>Marketing e Relacionamento</h3>
+
+          <p>
+            Divulgação da empresa, comunicação e relacionamento com clientes.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- COMO TROCAR AS FOTOS -->
+      <div class="card" style="margin-top: 30px;">
+
+        <h3>Como adicionar as fotos</h3>
+
+        <p>
+          Crie uma pasta chamada:
+        </p>
+
+        <strong>imagens</strong>
+
+        <p style="margin-top: 15px;">
+          Depois coloque as fotos com estes nomes:
+        </p>
+
+        <ul class="list">
+
+          <li>fundadora.jpg</li>
+
+          <li>operacoes.jpg</li>
+
+          <li>tecnologia.jpg</li>
+
+          <li>marketing.jpg</li>
+
+        </ul>
+
+        <div class="hero-actions" style="margin-top: 25px;">
+
+          <a class="btn btn-primary" href="index.html">
+            Voltar para o início
+          </a>
+
+          <a class="btn btn-secondary" href="index.html#contato">
+            Entrar em contato
+          </a>
+
+        </div>
+
+      </div>
+
     </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="section-divider"></div>
+
+      <p>
+        FloodMap — Tecnologia para prevenir enchentes e proteger vidas.
+      </p>
+
+    </div>
+
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
